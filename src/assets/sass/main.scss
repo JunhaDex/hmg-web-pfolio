@@ -1,3 +1,22 @@
-body {
-  background-color: aqua;
+@import "./mixins";
+
+@include mobile {
+  body {
+    background-color: red;
+  }
 }
+
+@include tablet {
+  body {
+    background-color: yellow;
+  }
+}
+
+@include desktop {
+  body {
+    background-color: green;
+  }
+}
+
+
+
